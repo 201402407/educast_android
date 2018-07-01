@@ -48,6 +48,27 @@
             android:layout_gravity="center_horizontal"
             />
 
+        <Button
+            android:id="@+id/btnInsert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="레코드 추가하기"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="레코드 수정하기"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="레코드 삭제하기"
+            android:layout_marginTop="10dp"/>
+
         <TextView
             android:id="@+id/tv01"
             android:layout_width="match_parent"
