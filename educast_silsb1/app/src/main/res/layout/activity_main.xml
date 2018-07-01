@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데이터베이스 활용하기"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/dbNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="데이터베이스 이름을 입력"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/btnCreateDB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="데이터베이스 만들기"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            />
+        <EditText
+            android:id="@+id/tbNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="테이블 명을 입력"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/btnCreateTB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="테이블 만들기"
+            android:layout_gravity="center_horizontal"
+            />
+
+</LinearLayout>
