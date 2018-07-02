@@ -127,6 +127,7 @@ public class MainActivity extends AppCompatActivity {
                                 String name = cursor.getString(0);
                                 String id = cursor.getString(1);
                                 String pw = cursor.getString(2);
+                                // 커서 어뎁터 사용 : UI와 커서를 바인딩(묶어서 화면에 출력) -> 반복적인 조회 필요 X -> ListView 사용
 
                                 sb.append("name : " + name).append(", id : " + id).append(", pw : " + pw + "\n");
 
